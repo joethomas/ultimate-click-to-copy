@@ -1,0 +1,54 @@
+/*
+Ultimate Click to Copy Styles
+Author: Joe Thomas
+Author URI: http://joethomas.co
+*/
+
+input#coupon-code {
+	display: inline-block;
+	line-height: initial;
+	margin: 9px 0 0 0;
+	padding: 12px 17px;
+	background-color: rgba(12, 188, 3, 0.04);
+	border: 1px solid #0cbc03;
+	border-radius: 2px 0 0 2px;
+	font-size: 28px;
+	font-weight: normal;
+	color: #0cbc03;
+}
+
+input#coupon-code #inner-editor::selection {
+	background-color: #0cbc03;
+	background: #0cbc03;
+	color: #fff;
+}
+
+input#coupon-code::selection {
+	background-color: #0cbc03;
+	background: #0cbc03;
+	color: #fff;
+}
+
+input#coupon-code ::selection {
+	background-color: #0cbc03;
+	background: #0cbc03;
+	color: #fff;
+}
+
+input#coupon-code::-moz-selection {
+	background-color: #0cbc03;
+	background: #0cbc03;
+	color: #fff;
+}
+
+button#copy-button {
+	display: inline-block;
+	line-height: initial;
+	padding: 12px 17px;
+	background-color: #0cbc03;
+	border: 1px solid #0cbc03;
+	border-radius: 0 2px 2px 0;
+	font-size: 28px;
+	font-weight: normal;
+	color: #fff;
+}
