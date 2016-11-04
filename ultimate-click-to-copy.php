@@ -3,7 +3,7 @@
 	Plugin Name: Ultimate Click to Copy
 	Description: This plugin adds stylish click to copy functionality to your site.
 	Plugin URI: https://github.com/joethomas/ultimate-click-to-copy
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: Joe Thomas
 	Author URI: http://joethomas.co
 	License: GNU General Public License v3.0
@@ -76,8 +76,6 @@ function joeuctc_enqueue_scripts() {
 add_action( 'wp_enqueue_scripts', 'joeuctc_enqueue_scripts' );
 
 
-
-
 /* Bootstrap Files
 ==============================================================================*/
 
@@ -98,4 +96,3 @@ function joeuctc_load_textdomain() {
 	load_plugin_textdomain( JOEUCTC_PREFIX, FALSE, basename(__DIR__) . '/languages/' );
 }
 add_action( 'plugins_loaded', 'joeuctc_load_textdomain' );
-
