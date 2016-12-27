@@ -4,7 +4,7 @@
  *
  * @since 1.0.0
  */
-function joeuctc_do_not_update_plugin_wp( $r, $url ) {
+function joe_uctc_do_not_update_plugin_wp_88562108( $r, $url ) {
 
 	if ( 0 !== strpos( $url, 'http://api.wordpress.org/plugins/update-check' ) ) {
 
@@ -22,4 +22,4 @@ function joeuctc_do_not_update_plugin_wp( $r, $url ) {
 	return $r;
 
 }
-add_filter( 'http_request_args', 'joeuctc_do_not_update_plugin_wp', 5, 2 );
+add_filter( 'http_request_args', 'joe_uctc_do_not_update_plugin_wp_88562108', 5, 2 );
