@@ -3,7 +3,7 @@
 	Plugin Name: Ultimate Click to Copy
 	Description: This plugin adds stylish click to copy functionality to your site.
 	Plugin URI: https://github.com/joethomas/ultimate-click-to-copy
-	Version: 1.1.2
+	Version: 1.1.3
 	Author: Joe Thomas
 	Author URI: https://github.com/joethomas
 	License: GNU General Public License v3.0
@@ -45,6 +45,9 @@ function joe_uctc_get_plugin_data() {
 add_action( 'init', 'joe_uctc_get_plugin_data' );
 
 define( 'JOE_UCTC_PREFIX', 'ultimate-click-to-copy' );
+
+// Set latest clipboard.js version
+define( 'JOE_UCTC_CLIPBOARDJS_VER', '1.7.1');
 
 
 /* Bootstrap
